@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #040000;
+}
+
+.hero-section{
+   
+    /* background-image: url("images/slider-img.png"); */
+    background-color: #d1e3ff ;
+
+    
+}
+ul{
+  position: relative;
+  right: 8rem;
+
+}
+.slider h1{
+  font-size: 3rem;
+}
+.slider p{
+  font-weight: 400;
+}
+.feature{
+  height: 15rem;
+  position: relative;
+  z-index: 10;
+  bottom: 93px;
+   background: transparent;
+  }
+
+.feature-box{
+  height: 100%;
+  width: 23rem;
+  background-color: #ffffff;
+  color: #555089;
+  box-shadow: 0 .5rem .5rem rgba(black, .15);
+}
+.feature-box:hover{
+  cursor: pointer;
+}
+.feature-box svg{
+  color: #555089;
+}
+.feature-box svg:hover{
+  color: #ffffff;
+  
+}
+.feature-box:hover{
+  background-color: #ff8a1d;
+  color: #ffffff;
+}
+.feature-box h2{
+  font-weight: 400;
+}
+.about .desc p{
+  font-weight: 400;
+}
+.professional{
+  margin-top: 93px;
+  height: 829px;
+  background-color: #d1e3ff ;
+  width: 100%;
+}
+.professional img{
+  /* margin-top: 164px; */
+  position: relative;
+  top: 123px;
+}
+.professional .button{
+  background-color: #ff8a1d;
+  color: #ffffff;
+}
+.services-section{
+  height: 15rem;
+  margin-top: 145px;
+  background: transparent;
+}
+.service-container{
+  margin-top: 96px;
+}
+
+.service-box{
+  height: 100%;
+  width: 23rem;
+  background-color: #ffffff;
+  color: #555089;
+  box-shadow: 0 .5rem .5rem rgba(black, .15);
+}
+.service-box:hover{
+  cursor: pointer;
+}
+.service-box img{
+  color: #555089;
+  height: 100px;
+  width: 100px;
+}
+.service-box img:hover{
+  color: #ffffff;
+  
+}
+.service-box:hover{
+  background-color: #ff8a1d;
+  color: #ffffff;
+}
+.service-box h2{
+  font-weight: 400;
+}
+.client-section{
+  margin-top: 398px;
+}
+.client-wrapper{
+  margin-top: 120px;
+ 
+
+}
+.client-img img{
+  border-radius: 50%;
+}
+.client-section .quote{
+  position: relative;
+  right: -193px;
+}
+.client-profile-card{
+  margin-left:30px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.crousel{
+  margin-top: 70px;
+  position: relative;
+  right: -16px;
+}
+
+ 
+
+.crousel button{
+  width: 50px;
+  height: 50px;
+  background-color: #0355cc;
+  outline: none; 
+  margin: 0 20px;
+  color: #ffffff;
+}
+
+
+
+
+/* pagination button color #0355cc 
+fontawsome*/
